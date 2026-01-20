@@ -14,9 +14,5 @@ const eslintConfig = defineConfig([
     'next-env.d.ts',
   ]),
 ]);
-module.exports = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-};
+
 export default eslintConfig;
