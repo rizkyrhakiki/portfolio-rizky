@@ -26,7 +26,7 @@ export default function CompanyOverview({
 
           <p className="mt-4 text-white/80 font-medium">{company.headline}</p>
 
-          <ul className="mt-4 space-y-3 text-sm text-white/80">
+          <ul className="mt-4 space-y-3 text-md text-white/80">
             {company.bullets.map((b, i) => (
               <li key={i} className="flex gap-3 text">
                 <span className="mt-2 h-1.5 w-1.5 rounded-full bg-white shrink-0" />

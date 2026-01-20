@@ -33,7 +33,7 @@ export default function WorkItemGallery({
       </div>
 
       {item.description ? (
-        <p className="mt-4 text-sm leading-relaxed text-white/70">
+        <p className="mt-4 text-md leading-relaxed text-white/70">
           {item.description}
         </p>
       ) : null}
