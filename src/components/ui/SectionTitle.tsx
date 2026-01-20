@@ -12,7 +12,9 @@ export default function SectionTitle({
           {eyebrow}
         </div>
       )}
-      <h2 className="mt-2 text-xl sm:text-2xl font-semibold">{title}</h2>
+      <h2 className="mt-2 text-xl sm:text-4xl font-semibold text-center">
+        {title}
+      </h2>
     </div>
   );
 }

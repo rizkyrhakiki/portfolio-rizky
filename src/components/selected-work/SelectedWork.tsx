@@ -6,7 +6,7 @@ export default function SelectedWork() {
   return (
     <section className="mt-14 sm:mt-20">
       <Container>
-        <h2 className="text-center text-2xl sm:text-3xl font-semibold">
+        <h2 className="text-center text-3xl sm:text-3xl font-semibold">
           Selected Work
         </h2>
 

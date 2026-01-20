@@ -23,11 +23,11 @@ export default function Hero() {
           </div>
 
           {/* Name + Role */}
-          <h1 className="mt-7 text-3xl sm:text-5xl font-medium tracking-tight">
+          <h1 className="mt-7 text-4xl sm:text-5xl tracking-tight">
             Rizky Rahmat Hakiki
           </h1>
 
-          <p className="mt-3 text-xl sm:text-3xl font-extrabold">
+          <p className="mt-3 text-xl sm:text-3xl font-bold">
             Product Designer <span className="text-white/70">|</span> UI/UX
             Designer
           </p>
@@ -71,13 +71,13 @@ export default function Hero() {
 
           {/* Big Card */}
           <div className="mt-10 w-full max-w-4xl rounded-[32px] border border-white/20 bg-black/40 px-6 py-8 sm:px-10 sm:py-10">
-            <h2 className="text-2xl sm:text-4xl font-extrabold leading-tight">
+            <h2 className="text-2xl sm:text-2xl font-semibold leading-tight">
               Designing Functional Solutions that
               <br className="hidden sm:block" />
               Connect Users and Businesses Seamlessly
             </h2>
 
-            <p className="mx-auto mt-5 max-w-3xl text-base sm:text-lg leading-relaxed text-white/70">
+            <p className="mx-auto mt-5 max-w-3xl text-base text-lg leading-relaxed text-white/70">
               Hi, I&apos;m Rizky, a designer who excels in creating functional,
               innovative solutions that meet both user and business needs. With
               experience in fintech, HRIS, B2B, and more, I&apos;m a quick

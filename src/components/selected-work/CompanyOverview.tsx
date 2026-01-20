@@ -12,7 +12,7 @@ export default function CompanyOverview({
         <img
           src={company.bgMark}
           alt=""
-          className="pointer-events-none absolute -left-4 top-1/2 hidden -translate-y-1/2 md:block"
+          className="pointer-events-none absolute -left-4 top-1/2 hidden -translate-y-1/2 md:block -z-10"
         />
       ) : null}
 
@@ -26,10 +26,10 @@ export default function CompanyOverview({
 
           <p className="mt-4 text-white/80 font-medium">{company.headline}</p>
 
-          <ul className="mt-4 space-y-3 text-sm text-white/70">
+          <ul className="mt-4 space-y-3 text-sm text-white/80">
             {company.bullets.map((b, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5" />
+              <li key={i} className="flex gap-3 text">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-white shrink-0" />
                 <span>{b}</span>
               </li>
             ))}
