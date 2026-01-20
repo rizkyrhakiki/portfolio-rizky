@@ -53,7 +53,7 @@ export default function Hero() {
             <span className="hidden sm:inline text-white/30">•</span>
 
             <a
-              href="https://dribbble.com/rizkyrahkiki"
+              href="https://dribbble.com/rizkyrhakiki"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 hover:text-white transition"
@@ -65,7 +65,7 @@ export default function Hero() {
                   className="h-4 w-4"
                 />
               </span>
-              dribbble.com/rizkyrahkiki
+              dribbble.com/rizkyrhakiki
             </a>
           </div>
 
